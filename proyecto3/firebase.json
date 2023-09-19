@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "proyecto3",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

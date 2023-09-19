@@ -1,0 +1,39 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body text-center">
+            <span class="h3">Lista de empleados</span>
+        </div>
+        <button type="submit" class="btn btn-dark btn-md float-right" routerLink="/create-empleados"><i class="fas fa-plus"></i></button>
+    </div>
+    <table class="table table-striped mt-5">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">NOMBRE</th>
+                <th scope="col">APELLIDO</th>
+                <th scope="col">DOCUMENTO</th>
+                <th scope="col">SALARIO</th>
+                <th scope="col">ACCIONES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td class="text" *ngFor="let item of items | async">{{item.NOMBRE}}</td>
+                <td class="text" *ngFor="let item of items | async">{{item.APELLIDO}}</td>
+                <td class="text" *ngFor="let item of items | async">{{item.DOCUMENTO}}</td>
+                <td class="text" *ngFor="let item of items | async">{{item.SALARIO}}</td>
+                <td><i class="fas fa-edit fa-lg text-info m-2"></i>
+                    <i class="fas fa-trash-alt"></i>
+            </tr>
+            <!-- <ul>
+                <li class="text" *ngFor="let item of items | async">
+                    {{item.NOMBRE}},
+                </li>
+                <li class="text" *ngFor="let item of items | async">
+                    {{item.APELLIDO}}
+                </li>
+            </ul> -->
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "empleados-9daef": {
+      "hosting": {
+        "proyecto4": [
+          "empleados-9daef"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "empleados-9daef"
+  }
+}

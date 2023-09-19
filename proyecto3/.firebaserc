@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "empleados-97aa0": {
+      "hosting": {
+        "proyecto3": [
+          "empleados-97aa0"
+        ]
+      }
+    },
+    "empleados-c1c08": {
+      "hosting": {
+        "proyecto3": [
+          "empleados-c1c08"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "empleados-c1c08"
+  }
+}
